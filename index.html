@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>משחק התאמת מילים</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎯 משחק התאמת מילים</h1>
+
+  <div id="controls">
+    <input id="hebrew" placeholder="עברית">
+    <input id="english" placeholder="English">
+    <button onclick="addWord()">➕ הוסף מילה</button>
+    <button onclick="saveGame()">💾 שמור משחק</button>
+    <button onclick="shareGame()">🔗 שתף משחק</button>
+  </div>
+
+  <h2>🧠 המשחק</h2>
+  <div id="game"></div>
+
+  <h2>📂 משחקים שמורים</h2>
+  <ul id="savedGames"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
